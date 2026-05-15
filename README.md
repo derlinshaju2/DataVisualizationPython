@@ -20,3 +20,20 @@ NumPy
 Understand basic data visualization concepts
 Create graphs using Matplotlib
 Analyze data visually using charts and plots
+
+*Steps Performed
+
+Import libraries
+Load dataset
+Split training and testing data
+Train Linear Regression model
+Predict values
+Visualize results
+Evaluate model performance
+
+*Applications
+
+House price prediction
+Sales forecasting
+Business analytics
+Trend prediction
