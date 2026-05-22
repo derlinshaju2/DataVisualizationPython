@@ -1,10 +1,13 @@
 Data Visualization Dashboard 📊
+
 An interactive web application built with Streamlit, Pandas, and Matplotlib to visualize temperature trends, housing prices, and customer demographics.
 
 🚀 Live Demo
-You can view the live app here: [YOUR_STREAMLIT_URL_HERE]
+
+You can view the live app here: https://datavisualizationpython-pin77euznj9goeak6tg55h.streamlit.app/
 
 🛠️ Features
+
 Temperature Analysis: Multi-line charts tracking max, min, and average weekly temperatures.
 
 Home Rent Analysis: Correlation between property area and rental prices using line and scatter plots.
@@ -22,6 +25,7 @@ File Upload Support: Allows users to upload their own CSV files for real-time an
 └── README.md             # Project documentation
 
 📊 Data Requirements
+
 The application expects CSV files with the following structures:
 
 Home Rent: Columns named area and price.
@@ -29,6 +33,7 @@ Home Rent: Columns named area and price.
 Customers: Columns named Gender and Profession.
 
 🛠️ Technologies Used
+
 Python - Core programming language.
 
 Streamlit - Framework for creating the web interface.
