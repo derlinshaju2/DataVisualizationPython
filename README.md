@@ -19,7 +19,7 @@ The application is structured into three distinct modules accessible via the sid
 * **👥 Customer Demographics:** * Dynamic distribution of **Gender** and **Profession** based on user-uploaded data.
     * Visual breakdown of daily activities via interactive pie charts.
 * **📂 Dynamic File Upload:** Includes a CSV file uploader to allow real-time analysis of custom demographic data.
-* 
+
 
 ## 📂 Project Structure
 
