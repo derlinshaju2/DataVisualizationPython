@@ -1,39 +1,38 @@
-*Data Visualization with Python
-*Overview
+Data Visualization Dashboard 📊
+An interactive web application built with Streamlit, Pandas, and Matplotlib to visualize temperature trends, housing prices, and customer demographics.
 
-This project demonstrates various data visualization techniques using Python libraries such as Matplotlib and Pandas. Different types of graphs are created to represent and analyze data effectively, including line plots, scatter plots, and pie charts.
+🚀 Live Demo
+You can view the live app here: [YOUR_STREAMLIT_URL_HERE]
 
-*Graphs Included
+🛠️ Features
+Temperature Analysis: Multi-line charts tracking max, min, and average weekly temperatures.
 
-Line Graph
-Scatter Plot
-Pie Chart
-Multiple Line Plot
-Technologies Used
-Python
-Matplotlib
-Pandas
-NumPy
+Home Rent Analysis: Correlation between property area and rental prices using line and scatter plots.
 
-*Learning Objectives
+Customer Demographics: Interactive pie charts displaying distributions of Gender, Professions, and daily activities.
 
-Understand basic data visualization concepts
-Create graphs using Matplotlib
-Analyze data visually using charts and plots
+File Upload Support: Allows users to upload their own CSV files for real-time analysis.
 
-*Steps Performed
+📂 Repository Structure
 
-Import libraries
-Load dataset
-Split training and testing data
-Train Linear Regression model
-Predict values
-Visualize results
-Evaluate model performance
+├── app.py                # Main Streamlit application script
+├── requirements.txt      # List of Python dependencies
+├── home rent.csv         # Dataset for housing analysis
+├── Customers (1).csv     # Dataset for demographic analysis
+└── README.md             # Project documentation
 
-*Applications
+📊 Data Requirements
+The application expects CSV files with the following structures:
 
-House price prediction
-Sales forecasting
-Business analytics
-Trend prediction
+Home Rent: Columns named area and price.
+
+Customers: Columns named Gender and Profession.
+
+🛠️ Technologies Used
+Python - Core programming language.
+
+Streamlit - Framework for creating the web interface.
+
+Matplotlib - Library for generating static and interactive visualizations.
+
+Pandas - Data manipulation and analysis.
